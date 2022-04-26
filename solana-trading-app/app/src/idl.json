@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "name": "solana_trading_app",
+    "instructions": [
+      {
+        "name": "initialize",
+        "accounts": [],
+        "args": []
+      }
+    ],
+    "metadata": {
+      "address": "Aj8Lne9J5iotJxRMJuL3ATowQwqwh9ZqAWr44wJkRSRY"
+    }
+  }
