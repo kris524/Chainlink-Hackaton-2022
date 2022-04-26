@@ -1,9 +1,3 @@
-// use anchor_lang::prelude::*;
-
-// declare_id!("BiHcQCAxV75ziYyyBJmvsK8EjQfEPNBXPoyWfXB8rBuU");
-
-// #[program]
-// mod mysolanaapp {
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::entrypoint::ProgramResult;
 
