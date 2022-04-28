@@ -1,7 +1,7 @@
 [features]
 seeds = false
 [programs.localnet]
-solana_trading_app = "BiHcQCAxV75ziYyyBJmvsK8EjQfEPNBXPoyWfXB8rBuU"
+solana_trading_app = "Aj8Lne9J5iotJxRMJuL3ATowQwqwh9ZqAWr44wJkRSRY"
 
 [registry]
 url = "https://anchor.projectserum.com"
@@ -11,4 +11,4 @@ cluster = "localnet"
 wallet = "/Users/peteryang/.config/solana/id.json"
 
 [scripts]
-test = "ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+test = "mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
