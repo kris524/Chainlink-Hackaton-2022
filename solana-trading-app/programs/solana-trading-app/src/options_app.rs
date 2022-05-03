@@ -21,11 +21,22 @@
 
 #[account]
 pub struct User {
-    pub address: String;
+    pub address: Pubkey;
 }
 
 #[account]
 pub struct TransactionPay {
     pub Ammount: f32;
-    pub token: 
+    pub token: ?
+}
+
+#[account]
+pub TransactionBuy {
+    pub Ammount: f32,
+    pub token: ?
+}
+
+#[account]
+pub reciever {
+    pub address: Pubkey
 }
